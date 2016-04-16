@@ -1,0 +1,41 @@
+.partners{
+  overflow: hidden;
+  .partners-header{
+    margin-top: 100px;
+    color: #1c1c1c;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .partners-info{
+    margin-bottom: 20px;
+    color: #1c1c1c;
+    font-family: Lora;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+  }
+  .bxsliderpartners{
+    border: 1px solid #eaeff3;
+  }
+  .slide-items{
+    padding: 10px;
+    border-right: 1px #eaeff3;
+  }
+  .bx-wrapper{
+    .bx-pager-item{
+      float: left!important;
+      a{
+        background-color: #36a8ff;
+      }
+      a.active{
+        background-color: #ffaf36;
+      }
+    }
+  }
+  .bx-pager.bx-default-pager a.active{
+    background: #ffaf36!important;
+  }
+}

@@ -1,0 +1,54 @@
+.clients{
+  overflow: hidden;
+  .clients-header{
+    margin-top: 100px;
+    color: #1c1c1c;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .clients-info{
+    margin-bottom: 20px;
+    color: #1c1c1c;
+    font-family: Lora;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+  }
+  .bxsliderclients{
+    li{
+      max-width: 320px;
+      padding-top: 30px;
+      color: #585858;
+      line-height: 28px;
+      background: url("img/quote_icon.png") no-repeat left top;
+    }
+    .description-block{
+      position: relative;
+      padding-left: 100px;
+      margin: 50px 0 50PX;
+      img{
+        position:absolute;
+        top:0;
+        left:0;
+      }
+    }
+
+  }
+  .bx-wrapper{
+    .bx-pager-item{
+      float: left!important;
+      a{
+        background-color: #36a8ff;
+      }
+      a.active{
+        background-color: #ffaf36;
+      }
+    }
+  }
+  .bx-pager.bx-default-pager a.active{
+    background: #ffaf36!important;
+  }
+}

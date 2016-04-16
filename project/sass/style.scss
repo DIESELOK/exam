@@ -1,0 +1,61 @@
+/*
+Theme Name: Project
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: project
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+PROJECT is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import 'normalize';
+@import 'susy';
+@import "grids";
+@import "reset";
+@import 'header';
+@import 'about';
+@import 'services';
+@import 'clients';
+@import 'news';
+@import 'partners';
+@import 'footer';
+
+@include border-box-sizing();
+.container{
+  @include container();
+  padding:0 10px;
+  overflow: hidden;
+}
+.clear::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+img{
+  max-width:100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,800,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic);
+
+
+
+
+
+
+
